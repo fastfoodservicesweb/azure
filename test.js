@@ -48,7 +48,7 @@ console.log("Server, anropas, localhost:7999. Antalet anrop: "+i+++" i http.crea
 
 console.log(req.url);
 
-    }).listen(process.env.port|| 3000. '127.0.0.1');
+    }).listen(process.env.port);
 
 });
 
