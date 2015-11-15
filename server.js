@@ -1,7 +1,7 @@
 // Ladda http-modul fÃ¶r att fÃ¶r http-sever.
 
 var http = require('http');
-var port = process.env.PORT || 1337;
+//var port = process.env.PORT || 1337;
 
 // Ladda modulen fÃ¶r att lÃ¤sa en fil.
 
