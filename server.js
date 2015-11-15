@@ -13,7 +13,7 @@ var i = 1;
 
 //lÃ¤ser in filen index.html i en callback-funktion.
 
-fs.readFile('./index.html', function (err, html) {
+fs.readFile('./index1.html', function (err, html) {
 
                       // en logutskrift dÃ¥ servern anropas.
 
