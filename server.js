@@ -39,8 +39,8 @@ console.log("Server, anropas, localhost:7999. I funktion fs.readFile");
 
                                             //skriv ut innehÃ¥llet i filen, variabeln html;
 
-        res.write(html); 
-
+        //res.write(html); 
+	res.write("Hej"+i++);
         res.end(); 
 
 // en logutskrift dÃ¥ servern anropas.
