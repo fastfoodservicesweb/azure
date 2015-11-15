@@ -48,8 +48,8 @@ console.log("Server, anropas, localhost:7999. Antalet anrop: "+i+++" i http.crea
 
 console.log(req.url);
 
-    }).listen(process.env.port);
-
+//    }).listen(process.env.port);
+}).listen(7999);
 });
 
 // en logutskrift dÃ¥ servern startas.
